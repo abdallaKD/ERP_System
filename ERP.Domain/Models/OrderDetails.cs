@@ -11,17 +11,38 @@ namespace ERP.Domain.Models
     public class OrderDetails
     {
         [Key]
-        public int ID { get; set; }
-        public decimal UnitPrice { get; set; }
+        public int Id { get; set; }
+
+        [Required]
+        [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
+        [Display(Name = "Quantity")]
         public int Quantity { get; set; }
 
-        [ForeignKey("order")]
-        public int OrderId;
-        [ForeignKey("product")]
-        public int ProductId;
+        [Required]
+        [Column(TypeName = "decimal(18,2)")]
+        [Range(0, double.MaxValue)]
+        [Display(Name = "Unit Price")]
+        public decimal UnitPrice { get; set; }
 
-        public Order order { get; set; }
-        public Product product { get; set; }
+        [NotMapped]
+        [Display(Name = "Total Price")]
+        public decimal TotalPrice => Quantity * UnitPrice;
+
+        //Navigation Properties 
+        [Required]
+        public int OrderId { get; set; }
+
+        [ForeignKey(nameof(OrderId))]
+        public virtual Order? Order { get; set; }
+
         
+        
+
+        [ForeignKey(nameof(Product))]
+
+        [Required]
+        [Display(Name = "Product")]
+        public int ProductId { get; set; }
+        public virtual Product? Product { get; set; }
     }
 }

@@ -10,12 +10,34 @@ namespace ERP.Domain.Models
     public class Customer
     {
         [Key]
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Phone {  get; set; } 
-        public string Address { get; set; }
+        public int Id { get; set; }
 
-        public List<Order>? orders { get; set; } = new List<Order>();
+        [Required]
+        [MaxLength(200)]
+        [Display(Name = "Customer Name")]
+        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        [MaxLength(50)]
+        [Phone]
+        [Display(Name = "Phone Number")]
+        public string Phone { get; set; } = string.Empty;
+
+        [MaxLength(256)]
+        [EmailAddress]
+        [Display(Name = "Email Address")]
+        public string? Email { get; set; }
+
+        [MaxLength(500)]
+        [Display(Name = "Address")]
+        public string? Address { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+
+        // Navigation Properties
+        public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+        public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
     }
 
 }

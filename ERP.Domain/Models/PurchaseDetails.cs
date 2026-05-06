@@ -11,16 +11,35 @@ namespace ERP.Domain.Models
     public class PurchaseDetails
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
+
+        [Required]
+        [Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
+        [Display(Name = "Quantity")]
         public int Quantity { get; set; }
-        public decimal UnitPrice { get; set; }
 
-        [ForeignKey("Purchase")]
+        [Required]
+        [Column(TypeName = "decimal(18,2)")]
+        [Range(0, double.MaxValue)]
+        [Display(Name = "Unit Cost")]
+        public decimal UnitCost { get; set; }
+
+        [NotMapped]
+        [Display(Name = "Total Cost")]
+        public decimal TotalCost => Quantity * UnitCost;
+
+        //Navigation Properties
+
+        [ForeignKey(nameof(Purchase))]
+        [Required]
         public int PurchaseId { get; set; }
-        [ForeignKey("Product")]
-        public int ProductId { get; set; }
+        public virtual Purchase? Purchase { get; set; }
 
-        public Purchase Purchase { get; set; }
-        public Product Product { get; set; }
+
+        [ForeignKey(nameof(Product))]
+        [Required]
+        [Display(Name = "Product")]
+        public int ProductId { get; set; }
+        public virtual Product? Product { get; set; }
     }
 }

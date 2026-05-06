@@ -10,12 +10,31 @@ namespace ERP.Domain.Models
     public class Supplier
     {
         [Key]
-        public int ID { get; set; }
-        public string Phone { get; set; }
-        public string CompanyName { get; set; }
-        public string Address { get; set; }
-        public string ContactName { get; set; }
+        public int Id { get; set; }
 
-        public List<Purchase>? Purchases { get; set; } = new List<Purchase>();
+        [Required]
+        [MaxLength(200)]
+        [Display(Name = "Supplier Name")]
+        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        [MaxLength(50)]
+        [Phone]
+        [Display(Name = "Phone Number")]
+        public string Phone { get; set; } = string.Empty;
+
+        [MaxLength(256)]
+        [EmailAddress]
+        [Display(Name = "Email Address")]
+        public string? Email { get; set; }
+
+        [MaxLength(500)]
+        [Display(Name = "Address")]
+        public string? Address { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        // Navigation Properties
+        public virtual ICollection<Purchase> Purchases { get; set; } = new List<Purchase>();
     }
 }
