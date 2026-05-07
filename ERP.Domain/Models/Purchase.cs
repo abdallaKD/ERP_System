@@ -44,6 +44,6 @@ namespace ERP.Domain.Models
         public string CreatedByUserId { get; set; } = string.Empty;
         public virtual ApplicationUser? CreatedByUser { get; set; }
 
-        public virtual ICollection<PurchaseDetails> PurchaseDetails { get; set; } = new List<PurchaseDetails>();
+        public virtual ICollection<PurchaseItem> PurchaseDetails { get; set; } = new List<PurchaseItem>();
     }
 }

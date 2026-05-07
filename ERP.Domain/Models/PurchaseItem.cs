@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ERP.Domain.Models
 {
-    public class PurchaseDetails
+    public class PurchaseItem
     {
         [Key]
         public int Id { get; set; }

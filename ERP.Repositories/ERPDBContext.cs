@@ -18,9 +18,9 @@ namespace ERP.Repositories
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderDetails> OrderDetails { get; set; }
+        public DbSet<OrderItem> OrderItem { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
-        public DbSet<PurchaseDetails> PurchaseDetails { get; set; }
+        public DbSet<PurchaseItem> PurchaseItem { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<InventoryLog> InventoryLogs { get; set; }
 

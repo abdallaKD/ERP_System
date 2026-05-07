@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\ERP.App.csproj": {}
+    "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\ERP.App.csproj": {}
   },
   "projects": {
-    "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\ERP.App.csproj": {
+    "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\ERP.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\ERP.App.csproj",
+        "projectUniqueName": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\ERP.App.csproj",
         "projectName": "ERP.App",
-        "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\ERP.App.csproj",
-        "packagesPath": "C:\\Users\\apdal\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\obj\\",
+        "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\ERP.App.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\apdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj": {
-                "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj"
+              "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj": {
+                "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj"
               },
-              "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Services\\ERP.Services.csproj": {
-                "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Services\\ERP.Services.csproj"
+              "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\ERP.Services.csproj": {
+                "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\ERP.Services.csproj"
               }
             }
           }
@@ -101,24 +101,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\ERP.Domain.csproj": {
+    "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\ERP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\ERP.Domain.csproj",
+        "projectUniqueName": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\ERP.Domain.csproj",
         "projectName": "ERP.Domain",
-        "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\ERP.Domain.csproj",
-        "packagesPath": "C:\\Users\\apdal\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\obj\\",
+        "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\ERP.Domain.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\apdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -192,24 +192,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj": {
+    "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj",
+        "projectUniqueName": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj",
         "projectName": "ERP.Repositories",
-        "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj",
-        "packagesPath": "C:\\Users\\apdal\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\obj\\",
+        "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\apdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -224,8 +224,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\ERP.Domain.csproj": {
-                "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\ERP.Domain.csproj"
+              "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\ERP.Domain.csproj": {
+                "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\ERP.Domain.csproj"
               }
             }
           }
@@ -287,24 +287,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Services\\ERP.Services.csproj": {
+    "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\ERP.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Services\\ERP.Services.csproj",
+        "projectUniqueName": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\ERP.Services.csproj",
         "projectName": "ERP.Services",
-        "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Services\\ERP.Services.csproj",
-        "packagesPath": "C:\\Users\\apdal\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Services\\obj\\",
+        "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\ERP.Services.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\apdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -319,8 +319,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj": {
-                "projectPath": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERP.Repositories.csproj"
+              "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj": {
+                "projectPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERP.Repositories.csproj"
               }
             }
           }
@@ -382,7 +382,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

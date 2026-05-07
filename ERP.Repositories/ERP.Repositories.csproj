@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ERP.Domain\ERP.Domain.csproj" />
   </ItemGroup>
 

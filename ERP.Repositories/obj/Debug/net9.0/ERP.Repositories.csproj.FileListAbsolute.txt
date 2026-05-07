@@ -16,3 +16,21 @@ D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\refint\ERP
 D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.pdb
 D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.genruntimeconfig.cache
 D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\ref\ERP.Repositories.dll
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.deps.json
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.runtimeconfig.json
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.dll
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.pdb
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\bin\Debug\net9.0\ERP.Domain.dll
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\bin\Debug\net9.0\ERP.Domain.pdb
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.csproj.AssemblyReference.cache
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.AssemblyInfoInputs.cache
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.AssemblyInfo.cs
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.csproj.CoreCompileInputs.cache
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.sourcelink.json
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repo.AF70A2D7.Up2Date
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.dll
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\refint\ERP.Repositories.dll
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.pdb
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.genruntimeconfig.cache
+E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Repositories\obj\Debug\net9.0\ref\ERP.Repositories.dll

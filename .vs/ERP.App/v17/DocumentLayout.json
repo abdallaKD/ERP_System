@@ -1,66 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ITI Material\\MVC Project\\ERP.App\\",
+  "WorkspaceRootPath": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F67999A-293A-4180-AAC5-94585390DDA2}|ERP.App\\ERP.App.csproj|d:\\iti material\\mvc project\\erp.app\\erp.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F67999A-293A-4180-AAC5-94585390DDA2}|ERP.App\\ERP.App.csproj|solutionrelative:erp.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F67999A-293A-4180-AAC5-94585390DDA2}|ERP.App\\ERP.App.csproj|d:\\iti material\\mvc project\\erp.app\\erp.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2F67999A-293A-4180-AAC5-94585390DDA2}|ERP.App\\ERP.App.csproj|solutionrelative:erp.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\inventorylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|d:\\iti material\\mvc project\\erp.app\\erp.repositories\\erpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|solutionrelative:erp.repositories\\erpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.repositories\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|solutionrelative:erp.repositories\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.repositories\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|solutionrelative:erp.repositories\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.repositories\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|solutionrelative:erp.repositories\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.repositories\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|solutionrelative:erp.repositories\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\purchasedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\purchasedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{468359C9-0558-49E5-AD05-B3CC8764E86C}|ERP.Services\\ERP.Services.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.services\\inventoryservice\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468359C9-0558-49E5-AD05-B3CC8764E86C}|ERP.Services\\ERP.Services.csproj|solutionrelative:erp.services\\inventoryservice\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|d:\\iti material\\mvc project\\erp.app\\erp.domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468359C9-0558-49E5-AD05-B3CC8764E86C}|ERP.Services\\ERP.Services.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.services\\inventoryservice\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468359C9-0558-49E5-AD05-B3CC8764E86C}|ERP.Services\\ERP.Services.csproj|solutionrelative:erp.services\\inventoryservice\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F67999A-293A-4180-AAC5-94585390DDA2}|ERP.App\\ERP.App.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F67999A-293A-4180-AAC5-94585390DDA2}|ERP.App\\ERP.App.csproj|solutionrelative:erp.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.repositories\\erpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CDB7E1-82F5-4595-96C6-D1B1C6A513C6}|ERP.Repositories\\ERP.Repositories.csproj|solutionrelative:erp.repositories\\erpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\purchaseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\purchaseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|e:\\iti_.net_25-26\\projects\\erp-system_mvc\\erp_system\\erp.domain\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B5ED63-F083-4B11-8812-E5755DE0E218}|ERP.Domain\\ERP.Domain.csproj|solutionrelative:erp.domain\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,202 +90,264 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\appsettings.json",
-              "RelativeDocumentMoniker": "ERP.App\\appsettings.json",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\appsettings.json",
-              "RelativeToolTip": "ERP.App\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-06T22:07:09.531Z",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "ERP.Repositories\\Repository\\UnitOfWork.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "ERP.Repositories\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywB0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:37:16.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ERPDBContext.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERPDBContext.cs",
-              "RelativeDocumentMoniker": "ERP.Repositories\\ERPDBContext.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Repositories\\ERPDBContext.cs",
-              "RelativeToolTip": "ERP.Repositories\\ERPDBContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA5wB0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ERP.Repositories\\Repository\\GenericRepository.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "ERP.Repositories\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T22:03:28.329Z",
+              "WhenOpened": "2026-05-07T19:28:29.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ERP.Repositories\\Repository\\IGenericRepository.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "ERP.Repositories\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:27:39.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:53:00.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "InventoryLog.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\InventoryLog.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\InventoryLog.cs",
               "RelativeDocumentMoniker": "ERP.Domain\\Models\\InventoryLog.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\InventoryLog.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\InventoryLog.cs",
               "RelativeToolTip": "ERP.Domain\\Models\\InventoryLog.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T21:08:44.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Category.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Category.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:58:01.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Customer.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Customer.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\Customer.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wCcAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T20:59:49.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Order.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Order.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\Order.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:16:16.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "OrderDetails.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\OrderDetails.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\OrderDetails.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\OrderDetails.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\OrderDetails.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA5wC0AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:19:51.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\Program.cs",
-              "RelativeDocumentMoniker": "ERP.App\\Program.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.App\\Program.cs",
-              "RelativeToolTip": "ERP.App\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T22:24:35.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Purchase.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Purchase.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Purchase.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Purchase.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\Purchase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:38:04.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PurchaseDetails.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\PurchaseDetails.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\PurchaseDetails.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\PurchaseDetails.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\PurchaseDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:38:13.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Payment.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Payment.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\Payment.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:02:18.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Product.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ERP.Domain\\Models\\Product.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Product.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Product.cs",
               "RelativeToolTip": "ERP.Domain\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T21:38:21.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Supplier.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Supplier.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Models\\Supplier.cs",
-              "RelativeToolTip": "ERP.Domain\\Models\\Supplier.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:38:16.48Z",
+              "WhenOpened": "2026-05-06T20:53:00.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ERP.Repositories\\Repository\\IUnitOfWork.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\Repository\\IUnitOfWork.cs",
+              "RelativeToolTip": "ERP.Repositories\\Repository\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:34:54.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Category.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Category.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\Category.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:58:01.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\InventoryService\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "ERP.Services\\InventoryService\\IInventoryService.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\InventoryService\\IInventoryService.cs",
+              "RelativeToolTip": "ERP.Services\\InventoryService\\IInventoryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:53:52.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Enums\\Enums.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Enums\\Enums.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Enums\\Enums.cs",
+              "RelativeToolTip": "ERP.Domain\\Enums\\Enums.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:07:24.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\InventoryService\\InventoryService.cs",
+              "RelativeDocumentMoniker": "ERP.Services\\InventoryService\\InventoryService.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Services\\InventoryService\\InventoryService.cs",
+              "RelativeToolTip": "ERP.Services\\InventoryService\\InventoryService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:54:39.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\Program.cs",
+              "RelativeDocumentMoniker": "ERP.App\\Program.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.App\\Program.cs",
+              "RelativeToolTip": "ERP.App\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T12:25:51.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Enums\\Enums.cs",
-              "RelativeDocumentMoniker": "ERP.Domain\\Enums\\Enums.cs",
-              "ToolTip": "D:\\ITI Material\\MVC Project\\ERP.App\\ERP.Domain\\Enums\\Enums.cs",
-              "RelativeToolTip": "ERP.Domain\\Enums\\Enums.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBcAAAAdAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Order.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Order.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\Order.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwD0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T21:07:24.776Z",
+              "WhenOpened": "2026-05-06T21:16:16.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\OrderItem.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\OrderItem.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwC0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:19:51.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Payment.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Payment.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\Payment.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:02:18.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PurchaseItem.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\PurchaseItem.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\PurchaseItem.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\PurchaseItem.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\PurchaseItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:38:13.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ERPDBContext.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERPDBContext.cs",
+              "RelativeDocumentMoniker": "ERP.Repositories\\ERPDBContext.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Repositories\\ERPDBContext.cs",
+              "RelativeToolTip": "ERP.Repositories\\ERPDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T22:03:28.329Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Customer.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Customer.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\Customer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T20:59:49.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Purchase.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Purchase.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:38:04.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "ERP.Domain\\Models\\Supplier.cs",
+              "ToolTip": "E:\\ITI_.Net_25-26\\Projects\\ERP-System_MVC\\ERP_System\\ERP.Domain\\Models\\Supplier.cs",
+              "RelativeToolTip": "ERP.Domain\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T21:38:16.48Z"
             }
           ]
         }

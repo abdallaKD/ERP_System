@@ -24,6 +24,8 @@ namespace ERP.Domain.Models
         [Display(Name = "SKU")]
         public string SKU { get; set; } = string.Empty;
 
+        public int StockQuantity { get; set; }
+
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         [Range(0, double.MaxValue, ErrorMessage = "Cost price must be zero or greater.")]
@@ -46,9 +48,9 @@ namespace ERP.Domain.Models
         public int CategoryId { get; set; }
         public virtual Category? Category { get; set; }
 
-        public virtual ICollection<OrderDetails> OrderDetails { get; set; } = new List<OrderDetails>();
+        public virtual ICollection<OrderItem> OrderItem { get; set; } = new List<OrderItem>();
 
-        public virtual ICollection<PurchaseDetails> PurchaseDetails { get; set; } = new List<PurchaseDetails>();
+        public virtual ICollection<PurchaseItem> PurchaseItem { get; set; } = new List<PurchaseItem>();
 
         public virtual ICollection<InventoryLog> InventoryLogs { get; set; } = new List<InventoryLog>();
     }

@@ -20,6 +20,7 @@ namespace ERP.Domain.Models
         [Display(Name = "Job Title")]
         public string? JobTitle { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public bool IsActive { get; set; } = true;
 
 
         // Navigation Properties

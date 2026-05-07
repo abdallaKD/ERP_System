@@ -1,5 +1,6 @@
 using ERP.Domain.Models;
 using ERP.Repositories;
+using ERP.Repositories.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Principal;
@@ -22,7 +23,19 @@ namespace ERP.App
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
                 //options=>options.Password.RequireDigit= true
             ).
-            AddEntityFrameworkStores<ERPDBContext>();
+            AddEntityFrameworkStores<ERPDBContext>()
+            .AddDefaultTokenProviders();    //password recovery or account activation
+
+
+            ////// DI for Repositories and Services
+            //builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            //builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+
+            //builder.Services.AddScoped<IInventoryService, InventoryService>();
+            //builder.Services.AddScoped<ISalesService, SalesService>();
+            //builder.Services.AddScoped<IPurchaseService, PurchaseService>();
 
 
 

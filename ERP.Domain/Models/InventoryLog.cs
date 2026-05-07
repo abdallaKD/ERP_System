@@ -51,8 +51,15 @@ namespace ERP.Domain.Models
         /// Polymorphic FK — holds the Id of the originating Order or Purchase.
         /// Null for manual adjustments with no linked transaction.
         /// </summary>
-        [Display(Name = "Reference ID")]
-        public int? ReferenceId { get; set; }
+ 
+
+        [ForeignKey(nameof(Order))]
+        public int? OrderId { get; set; }
+        public virtual Order? Order { get; set; }
+
+        [ForeignKey(nameof(Purchase))]
+        public int? PurchaseId { get; set; }
+        public virtual Purchase? Purchase { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 

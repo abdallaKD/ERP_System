@@ -70,7 +70,7 @@ namespace ERP.Domain.Models
         public virtual ApplicationUser? CreatedByUser { get; set; }
 
 
-        public virtual ICollection<OrderDetails> OrderDetails { get; set; } = new List<OrderDetails>();
+        public virtual ICollection<OrderItem> OrderDetails { get; set; } = new List<OrderItem>();
 
         public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
     }
