@@ -19,6 +19,9 @@ namespace ERP.Domain.Models
         [Display(Name = "Product Name")]
         public string Name { get; set; } = string.Empty;
 
+        [Display(Name = "Product Image")]
+        public string? Image { get; set; }
+
         [Required]
         [MaxLength(100)]
         [Display(Name = "SKU")]
@@ -38,7 +41,7 @@ namespace ERP.Domain.Models
         [Display(Name = "Selling Price")]
         public decimal SellingPrice { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
 
         // Navigation Properties
 

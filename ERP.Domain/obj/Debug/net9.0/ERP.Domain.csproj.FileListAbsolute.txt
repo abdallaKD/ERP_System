@@ -1,18 +1,3 @@
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.deps.json
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.runtimeconfig.json
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.pdb
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.csproj.AssemblyReference.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.AssemblyInfoInputs.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.AssemblyInfo.cs
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.csproj.CoreCompileInputs.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.sourcelink.json
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\refint\ERP.Domain.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.pdb
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.genruntimeconfig.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ref\ERP.Domain.dll
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\bin\Debug\net9.0\ERP.Domain.deps.json
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\bin\Debug\net9.0\ERP.Domain.runtimeconfig.json
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\bin\Debug\net9.0\ERP.Domain.dll
@@ -28,3 +13,18 @@ E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\obj\Debug\net9.0
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\obj\Debug\net9.0\ERP.Domain.pdb
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\obj\Debug\net9.0\ERP.Domain.genruntimeconfig.cache
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Domain\obj\Debug\net9.0\ref\ERP.Domain.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.deps.json
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.runtimeconfig.json
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\bin\Debug\net9.0\ERP.Domain.pdb
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.csproj.AssemblyReference.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.AssemblyInfoInputs.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.AssemblyInfo.cs
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.csproj.CoreCompileInputs.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.sourcelink.json
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\refint\ERP.Domain.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.pdb
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.genruntimeconfig.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ref\ERP.Domain.dll

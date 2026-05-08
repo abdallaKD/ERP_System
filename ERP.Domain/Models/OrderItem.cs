@@ -35,11 +35,7 @@ namespace ERP.Domain.Models
         [ForeignKey(nameof(OrderId))]
         public virtual Order? Order { get; set; }
 
-        
-        
-
         [ForeignKey(nameof(Product))]
-
         [Required]
         [Display(Name = "Product")]
         public int ProductId { get; set; }

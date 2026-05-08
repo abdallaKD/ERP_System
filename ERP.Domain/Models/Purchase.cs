@@ -17,7 +17,7 @@ namespace ERP.Domain.Models
         [Required]
         [Display(Name = "Purchase Date")]
         [DataType(DataType.DateTime)]
-        public DateTime PurchaseDate { get; set; } = DateTime.UtcNow;
+        public DateTime PurchaseDate { get; set; } = new DateTime(2024, 1, 1);
 
         [Column(TypeName = "decimal(18,2)")]
         [Display(Name = "Total Amount")]
@@ -28,7 +28,7 @@ namespace ERP.Domain.Models
         [Display(Name = "Status")]
         public PurchaseStatus Status { get; set; } = PurchaseStatus.Pending;
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
 
         // Navigation Properties
 

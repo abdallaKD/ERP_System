@@ -23,7 +23,7 @@ namespace ERP.Domain.Models
         [Required]
         [Display(Name = "Payment Date")]
         [DataType(DataType.DateTime)]
-        public DateTime PaymentDate { get; set; } = DateTime.UtcNow;
+        public DateTime PaymentDate { get; set; } = new DateTime(2024, 1, 1);
 
         [Required]
         [Display(Name = "Payment Method")]

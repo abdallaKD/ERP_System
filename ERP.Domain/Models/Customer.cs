@@ -32,7 +32,7 @@ namespace ERP.Domain.Models
         [Display(Name = "Address")]
         public string? Address { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
 
 
         // Navigation Properties

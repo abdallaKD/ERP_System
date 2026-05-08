@@ -1,23 +1,3 @@
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.csproj.AssemblyReference.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.GeneratedMSBuildEditorConfig.editorconfig
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.AssemblyInfoInputs.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.AssemblyInfo.cs
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.csproj.CoreCompileInputs.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.sourcelink.json
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.deps.json
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.runtimeconfig.json
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.pdb
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Domain.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Repositories.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Repositories.pdb
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Domain.pdb
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Serv.BB745B50.Up2Date
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\refint\ERP.Services.dll
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.pdb
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.genruntimeconfig.cache
-D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ref\ERP.Services.dll
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\bin\Debug\net9.0\ERP.Services.deps.json
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\bin\Debug\net9.0\ERP.Services.runtimeconfig.json
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\bin\Debug\net9.0\ERP.Services.dll
@@ -38,3 +18,23 @@ E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\obj\Debug\net9
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\obj\Debug\net9.0\ERP.Services.pdb
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\obj\Debug\net9.0\ERP.Services.genruntimeconfig.cache
 E:\ITI_.Net_25-26\Projects\ERP-System_MVC\ERP_System\ERP.Services\obj\Debug\net9.0\ref\ERP.Services.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.deps.json
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.runtimeconfig.json
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Services.pdb
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Domain.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Repositories.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Repositories.pdb
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\bin\Debug\net9.0\ERP.Domain.pdb
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.csproj.AssemblyReference.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.AssemblyInfoInputs.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.AssemblyInfo.cs
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.csproj.CoreCompileInputs.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.sourcelink.json
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Serv.BB745B50.Up2Date
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\refint\ERP.Services.dll
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.pdb
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ERP.Services.genruntimeconfig.cache
+D:\ITI Material\MVC Project\ERP.App\ERP.Services\obj\Debug\net9.0\ref\ERP.Services.dll

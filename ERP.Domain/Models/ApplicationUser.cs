@@ -19,7 +19,7 @@ namespace ERP.Domain.Models
         [MaxLength(100)]
         [Display(Name = "Job Title")]
         public string? JobTitle { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
         public bool IsActive { get; set; } = true;
 
 

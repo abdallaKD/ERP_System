@@ -9,25 +9,6 @@ using System.Threading.Tasks;
 
 namespace ERP.Domain.Models
 {
-    //public class InventoryLog
-    //{
-    //    [Key]
-    //    public int ID { get; set; }
-    //    public int Quantity { get; set; }
-    //    public string Type { get; set; }
-    //    public string Notes { get; set; }
-    //    [DataType(DataType.Date)]
-    //    public DateTime TransactionDate { get; set; }
-
-    //    [ForeignKey("employee")]
-    //    public int EmpId { get; set; }
-
-    //    [ForeignKey("product")]
-    //    public int ProductId { get; set; }
-
-    //    public Employee employee { get; set; }
-    //    public Product product { get; set; }
-    //}
     public class InventoryLog
     {
         [Key]
@@ -61,9 +42,9 @@ namespace ERP.Domain.Models
         public int? PurchaseId { get; set; }
         public virtual Purchase? Purchase { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
 
-        // ── Navigation Properties ──────────────────────────────────────────────
+        // ── Navigation Properties
 
         [ForeignKey(nameof(Product))]
         [Required]
