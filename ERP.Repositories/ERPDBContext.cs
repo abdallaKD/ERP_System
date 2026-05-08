@@ -228,15 +228,21 @@ namespace ERP.Repositories
 
         // =====================================================================
         // PRODUCTS  (5 rows)
+        // StockQuantity reflects: purchases received − orders fulfilled − adjustments
+        //   Product 1 (Dell Laptop):      50 IN  − 1  OUT             = 49
+        //   Product 2 (HP Monitor):       50 IN  − 2  OUT             = 48
+        //   Product 3 (Office Chair):     30 IN  − 0  OUT − 3 ADJ     = 27
+        //   Product 4 (TP-Link Switch):   60 IN  − 0  OUT             = 60
+        //   Product 5 (MS Office Key):    pending purchase → 0 received = 0
         // =====================================================================
         private static void SeedProducts(ModelBuilder builder)
         {
             builder.Entity<Product>().HasData(
-                new Product { Id = 1, Name = "Dell Laptop 15\"", SKU = "ELEC-001", CostPrice = 750.00m, SellingPrice = 1099.99m, StockQuantity = 50, CategoryId = 1, Image = "dell-laptop.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
-                new Product { Id = 2, Name = "HP Monitor 24\"", SKU = "ELEC-002", CostPrice = 180.00m, SellingPrice = 299.99m, StockQuantity = 80, CategoryId = 1, Image = "hp-monitor.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
-                new Product { Id = 3, Name = "Ergonomic Office Chair", SKU = "FURN-001", CostPrice = 220.00m, SellingPrice = 399.99m, StockQuantity = 30, CategoryId = 3, Image = "office-chair.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+                new Product { Id = 1, Name = "Dell Laptop 15\"", SKU = "ELEC-001", CostPrice = 750.00m, SellingPrice = 1099.99m, StockQuantity = 49, CategoryId = 1, Image = "dell-laptop.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+                new Product { Id = 2, Name = "HP Monitor 24\"", SKU = "ELEC-002", CostPrice = 180.00m, SellingPrice = 299.99m, StockQuantity = 48, CategoryId = 1, Image = "hp-monitor.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+                new Product { Id = 3, Name = "Ergonomic Office Chair", SKU = "FURN-001", CostPrice = 220.00m, SellingPrice = 399.99m, StockQuantity = 27, CategoryId = 3, Image = "office-chair.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
                 new Product { Id = 4, Name = "TP-Link 8-Port Switch", SKU = "NET-001", CostPrice = 35.00m, SellingPrice = 59.99m, StockQuantity = 60, CategoryId = 4, Image = "tp-switch.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
-                new Product { Id = 5, Name = "Microsoft Office 2024 Key", SKU = "SOFT-001", CostPrice = 100.00m, SellingPrice = 179.99m, StockQuantity = 100, CategoryId = 5, Image = "ms-office.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) }
+                new Product { Id = 5, Name = "Microsoft Office 2024 Key", SKU = "SOFT-001", CostPrice = 100.00m, SellingPrice = 179.99m, StockQuantity = 0, CategoryId = 5, Image = "ms-office.jpg", CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, DateTimeKind.Utc) }
             );
         }
 
@@ -270,6 +276,8 @@ namespace ERP.Repositories
 
         // =====================================================================
         // PURCHASES  (5 rows)
+        //   Purchases 1-4 → Received  (stock entered the warehouse)
+        //   Purchase  5   → Pending   (goods not yet received — no inventory log)
         // =====================================================================
         private static void SeedPurchases(ModelBuilder builder)
         {
@@ -284,25 +292,42 @@ namespace ERP.Repositories
 
         // =====================================================================
         // PURCHASE ITEMS  (5 rows — one per purchase)
+        //   Id 1: 50  × $750   = $37,500  → Purchase 1
+        //   Id 2: 50  × $180   = $9,000   → Purchase 2
+        //   Id 3: 30  × $220   = $6,600   → Purchase 3
+        //   Id 4: 60  × $35    = $2,100   → Purchase 4
+        //   Id 5: 100 × $100   = $10,000  → Purchase 5 (Pending)
         // =====================================================================
         private static void SeedPurchaseItems(ModelBuilder builder)
         {
             builder.Entity<PurchaseItem>().HasData(
-                new PurchaseItem { Id = 1, PurchaseId = 1, ProductId = 1, Quantity = 50, UnitCost = 750.00m },  // 50 × 750  = 37,500
-                new PurchaseItem { Id = 2, PurchaseId = 2, ProductId = 2, Quantity = 50, UnitCost = 180.00m },  // 50 × 180  =  9,000
-                new PurchaseItem { Id = 3, PurchaseId = 3, ProductId = 3, Quantity = 30, UnitCost = 220.00m },  // 30 × 220  =  6,600
-                new PurchaseItem { Id = 4, PurchaseId = 4, ProductId = 4, Quantity = 60, UnitCost = 35.00m },  // 60 × 35   =  2,100
-                new PurchaseItem { Id = 5, PurchaseId = 5, ProductId = 5, Quantity = 100, UnitCost = 100.00m }   // 100 × 100 = 10,000
+                new PurchaseItem { Id = 1, PurchaseId = 1, ProductId = 1, Quantity = 50, UnitCost = 750.00m },
+                new PurchaseItem { Id = 2, PurchaseId = 2, ProductId = 2, Quantity = 50, UnitCost = 180.00m },
+                new PurchaseItem { Id = 3, PurchaseId = 3, ProductId = 3, Quantity = 30, UnitCost = 220.00m },
+                new PurchaseItem { Id = 4, PurchaseId = 4, ProductId = 4, Quantity = 60, UnitCost = 35.00m },
+                new PurchaseItem { Id = 5, PurchaseId = 5, ProductId = 5, Quantity = 100, UnitCost = 100.00m }
             );
         }
 
         // =====================================================================
         // ORDERS  (5 rows)
+        //
+        //   Order 1 — Alice    — 1× Dell Laptop  $1,099.99 — Completed / Paid
+        //   Order 2 — Bob      — 2× HP Monitor   $599.98   — Completed / Partial ($450 paid)
+        //   Order 3 — Clara    — 1× Office Chair $399.99   — Pending   / Pending  (unpaid)
+        //   Order 4 — David    — 1× MS Office    $179.99   — Completed / Paid
+        //   Order 5 — Eva      — 1× TP-Link      $59.99    — Cancelled / Pending  (no payment)
+        //
+        // NOTE: PaidAmount must exactly equal the sum of linked Payment rows.
+        //   Order 1: 1 payment  → $1,099.99
+        //   Order 2: 2 payments → $300 + $150 = $450.00
+        //   Order 3: 0 payments → $0
+        //   Order 4: 1 payment  → $179.99
+        //   Order 5: 0 payments → $0  (cancelled)
         // =====================================================================
         private static void SeedOrders(ModelBuilder builder)
         {
             builder.Entity<Order>().HasData(
-                // Order 1 — Fully paid
                 new Order
                 {
                     Id = 1,
@@ -315,7 +340,6 @@ namespace ERP.Repositories
                     PaymentStatus = PaymentStatus.Paid,
                     CreatedAt = new DateTime(2025, 2, 1, 0, 0, 0, DateTimeKind.Utc)
                 },
-                // Order 2 — Partial payment
                 new Order
                 {
                     Id = 2,
@@ -323,12 +347,11 @@ namespace ERP.Repositories
                     CreatedByUserId = "USER-SALES-0001",
                     OrderDate = new DateTime(2025, 2, 5, 0, 0, 0, DateTimeKind.Utc),
                     TotalAmount = 599.98m,
-                    PaidAmount = 300.00m,
-                    Status = OrderStatus.Pending,
+                    PaidAmount = 450.00m,   // $300 + $150
+                    Status = OrderStatus.Completed,
                     PaymentStatus = PaymentStatus.Partial,
                     CreatedAt = new DateTime(2025, 2, 5, 0, 0, 0, DateTimeKind.Utc)
                 },
-                // Order 3 — Unpaid
                 new Order
                 {
                     Id = 3,
@@ -336,12 +359,11 @@ namespace ERP.Repositories
                     CreatedByUserId = "USER-SALES-0001",
                     OrderDate = new DateTime(2025, 2, 10, 0, 0, 0, DateTimeKind.Utc),
                     TotalAmount = 399.99m,
-                    PaidAmount = 0,
+                    PaidAmount = 0m,
                     Status = OrderStatus.Pending,
                     PaymentStatus = PaymentStatus.Pending,
                     CreatedAt = new DateTime(2025, 2, 10, 0, 0, 0, DateTimeKind.Utc)
                 },
-                // Order 4 — Completed and fully paid
                 new Order
                 {
                     Id = 4,
@@ -354,7 +376,6 @@ namespace ERP.Repositories
                     PaymentStatus = PaymentStatus.Paid,
                     CreatedAt = new DateTime(2025, 2, 14, 0, 0, 0, DateTimeKind.Utc)
                 },
-                // Order 5 — Cancelled
                 new Order
                 {
                     Id = 5,
@@ -362,7 +383,7 @@ namespace ERP.Repositories
                     CreatedByUserId = "USER-SALES-0001",
                     OrderDate = new DateTime(2025, 2, 18, 0, 0, 0, DateTimeKind.Utc),
                     TotalAmount = 59.99m,
-                    PaidAmount = 0,
+                    PaidAmount = 0m,
                     Status = OrderStatus.Cancelled,
                     PaymentStatus = PaymentStatus.Pending,
                     CreatedAt = new DateTime(2025, 2, 18, 0, 0, 0, DateTimeKind.Utc)
@@ -376,49 +397,71 @@ namespace ERP.Repositories
         private static void SeedOrderItems(ModelBuilder builder)
         {
             builder.Entity<OrderItem>().HasData(
-                new OrderItem { Id = 1, OrderId = 1, ProductId = 1, Quantity = 1, UnitPrice = 1099.99m },  // Dell Laptop
-                new OrderItem { Id = 2, OrderId = 2, ProductId = 2, Quantity = 2, UnitPrice = 299.99m },  // 2× HP Monitor
-                new OrderItem { Id = 3, OrderId = 3, ProductId = 3, Quantity = 1, UnitPrice = 399.99m },  // Office Chair
-                new OrderItem { Id = 4, OrderId = 4, ProductId = 5, Quantity = 1, UnitPrice = 179.99m },  // MS Office Key
-                new OrderItem { Id = 5, OrderId = 5, ProductId = 4, Quantity = 1, UnitPrice = 59.99m }   // TP-Link Switch
+                new OrderItem { Id = 1, OrderId = 1, ProductId = 1, Quantity = 1, UnitPrice = 1099.99m }, // 1× Dell Laptop    = $1,099.99
+                new OrderItem { Id = 2, OrderId = 2, ProductId = 2, Quantity = 2, UnitPrice = 299.99m }, // 2× HP Monitor     = $599.98
+                new OrderItem { Id = 3, OrderId = 3, ProductId = 3, Quantity = 1, UnitPrice = 399.99m }, // 1× Office Chair   = $399.99
+                new OrderItem { Id = 4, OrderId = 4, ProductId = 5, Quantity = 1, UnitPrice = 179.99m }, // 1× MS Office Key  = $179.99
+                new OrderItem { Id = 5, OrderId = 5, ProductId = 4, Quantity = 1, UnitPrice = 59.99m }  // 1× TP-Link Switch = $59.99
             );
         }
 
         // =====================================================================
-        // PAYMENTS  (5 rows)
+        // PAYMENTS  (4 rows)
+        //
+        //   Payment 1 → Order 1, full $1,099.99 (Card)
+        //   Payment 2 → Order 2, first instalment $300.00 (Cash)
+        //   Payment 3 → Order 2, second instalment $150.00 (Transfer)  → total $450/$599.98 = Partial
+        //   Payment 4 → Order 4, full $179.99 (Card)
+        //
+        //   Order 3 (Clara) → no payment rows → PaidAmount = $0, Pending
+        //   Order 5 (Eva)   → cancelled, no payment rows
         // =====================================================================
         private static void SeedPayments(ModelBuilder builder)
         {
             builder.Entity<Payment>().HasData(
-                // Full payment for Order 1
                 new Payment { Id = 1, OrderId = 1, CustomerId = 1, Amount = 1099.99m, PaymentDate = new DateTime(2025, 2, 1, 0, 0, 0, DateTimeKind.Utc), PaymentMethod = PaymentMethod.Card },
-                // Partial payment for Order 2
                 new Payment { Id = 2, OrderId = 2, CustomerId = 2, Amount = 300.00m, PaymentDate = new DateTime(2025, 2, 5, 0, 0, 0, DateTimeKind.Utc), PaymentMethod = PaymentMethod.Cash },
-                // No payment for Order 3 — so no row here; instead seed an unrelated second payment for Order 2 showing multi-payment support:
                 new Payment { Id = 3, OrderId = 2, CustomerId = 2, Amount = 150.00m, PaymentDate = new DateTime(2025, 2, 7, 0, 0, 0, DateTimeKind.Utc), PaymentMethod = PaymentMethod.Transfer },
-                // Full payment for Order 4
-                new Payment { Id = 4, OrderId = 4, CustomerId = 4, Amount = 179.99m, PaymentDate = new DateTime(2025, 2, 14, 0, 0, 0, DateTimeKind.Utc), PaymentMethod = PaymentMethod.Card },
-                // Partial advance for Order 3
-                new Payment { Id = 5, OrderId = 3, CustomerId = 3, Amount = 100.00m, PaymentDate = new DateTime(2025, 2, 11, 0, 0, 0, DateTimeKind.Utc), PaymentMethod = PaymentMethod.Cash }
+                new Payment { Id = 4, OrderId = 4, CustomerId = 4, Amount = 179.99m, PaymentDate = new DateTime(2025, 2, 14, 0, 0, 0, DateTimeKind.Utc), PaymentMethod = PaymentMethod.Card }
             );
         }
 
         // =====================================================================
-        // INVENTORY LOGS  (5 rows)
+        // INVENTORY LOGS  (7 rows)
+        //
+        //  ── IN (4 rows) — one per Received purchase
+        //   Log 1: +50  Dell Laptops    ← Purchase 1
+        //   Log 2: +50  HP Monitors     ← Purchase 2
+        //   Log 3: +30  Office Chairs   ← Purchase 3
+        //   Log 4: +60  TP-Link Switches← Purchase 4
+        //   (Purchase 5 is Pending → goods not received → no IN log)
+        //
+        //  ── OUT (2 rows) — one per Completed order that moved stock
+        //   Log 5: −1   Dell Laptop     ← Order 1 (Completed)
+        //   Log 6: −2   HP Monitors     ← Order 2 (Completed)
+        //   (Orders 3, 4, 5: Order 3 Pending, Order 5 Cancelled → no OUT)
+        //   NOTE: Order 4 sold an MS Office Key (digital/licence) — warehouse
+        //         chose not to log a physical stock movement for it; if your
+        //         business rules differ, add a Log 7 OUT for ProductId=5, OrderId=4.
+        //
+        //  ── ADJUSTMENT (1 row)
+        //   Log 7: −3   Office Chairs   ← manual stock correction
         // =====================================================================
         private static void SeedInventoryLogs(ModelBuilder builder)
         {
             builder.Entity<InventoryLog>().HasData(
-                // IN — from Purchase 1 (50 Dell Laptops received)
+                // ── IN from purchases received ──────────────────────────────────
                 new InventoryLog { Id = 1, ProductId = 1, Quantity = 50, Type = InventoryMovementType.In, PurchaseId = 1, OrderId = null, CreatedByUserId = "USER-WARE-0001", CreatedAt = new DateTime(2025, 1, 10, 0, 0, 0, DateTimeKind.Utc) },
-                // IN — from Purchase 2 (50 HP Monitors received)
                 new InventoryLog { Id = 2, ProductId = 2, Quantity = 50, Type = InventoryMovementType.In, PurchaseId = 2, OrderId = null, CreatedByUserId = "USER-WARE-0001", CreatedAt = new DateTime(2025, 1, 12, 0, 0, 0, DateTimeKind.Utc) },
-                // OUT — from Order 1 (1 Dell Laptop sold)
-                new InventoryLog { Id = 3, ProductId = 1, Quantity = -1, Type = InventoryMovementType.Out, PurchaseId = null, OrderId = 1, CreatedByUserId = "USER-SALES-0001", CreatedAt = new DateTime(2025, 2, 1, 0, 0, 0, DateTimeKind.Utc) },
-                // OUT — from Order 2 (2 HP Monitors sold)
-                new InventoryLog { Id = 4, ProductId = 2, Quantity = -2, Type = InventoryMovementType.Out, PurchaseId = null, OrderId = 2, CreatedByUserId = "USER-SALES-0001", CreatedAt = new DateTime(2025, 2, 5, 0, 0, 0, DateTimeKind.Utc) },
-                // ADJUSTMENT — manual stock correction on Office Chairs
-                new InventoryLog { Id = 5, ProductId = 3, Quantity = -3, Type = InventoryMovementType.Adjustment, PurchaseId = null, OrderId = null, CreatedByUserId = "USER-WARE-0001", CreatedAt = new DateTime(2025, 2, 20, 0, 0, 0, DateTimeKind.Utc) }
+                new InventoryLog { Id = 3, ProductId = 3, Quantity = 30, Type = InventoryMovementType.In, PurchaseId = 3, OrderId = null, CreatedByUserId = "USER-WARE-0001", CreatedAt = new DateTime(2025, 1, 15, 0, 0, 0, DateTimeKind.Utc) },
+                new InventoryLog { Id = 4, ProductId = 4, Quantity = 60, Type = InventoryMovementType.In, PurchaseId = 4, OrderId = null, CreatedByUserId = "USER-WARE-0001", CreatedAt = new DateTime(2025, 1, 18, 0, 0, 0, DateTimeKind.Utc) },
+
+                // ── OUT from completed orders ────────────────────────────────────
+                new InventoryLog { Id = 5, ProductId = 1, Quantity = -1, Type = InventoryMovementType.Out, PurchaseId = null, OrderId = 1, CreatedByUserId = "USER-SALES-0001", CreatedAt = new DateTime(2025, 2, 1, 0, 0, 0, DateTimeKind.Utc) },
+                new InventoryLog { Id = 6, ProductId = 2, Quantity = -2, Type = InventoryMovementType.Out, PurchaseId = null, OrderId = 2, CreatedByUserId = "USER-SALES-0001", CreatedAt = new DateTime(2025, 2, 5, 0, 0, 0, DateTimeKind.Utc) },
+
+                // ── ADJUSTMENT — manual stock correction ─────────────────────────
+                new InventoryLog { Id = 7, ProductId = 3, Quantity = -3, Type = InventoryMovementType.Adjustment, PurchaseId = null, OrderId = null, CreatedByUserId = "USER-WARE-0001", CreatedAt = new DateTime(2025, 2, 20, 0, 0, 0, DateTimeKind.Utc) }
             );
         }
 

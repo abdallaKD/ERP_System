@@ -10,6 +10,7 @@
         "dependencies": {
           "ERP.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.15",
+          "Microsoft.AspNetCore.Identity.UI": "9.0.15",
           "Microsoft.EntityFrameworkCore": "9.0.15",
           "Microsoft.EntityFrameworkCore.Design": "9.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.15",
@@ -88,6 +89,18 @@
         },
         "runtime": {
           "lib/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "9.0.15.0",
+            "fileVersion": "9.0.1526.17607"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.UI/9.0.15": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "9.0.15",
+          "Microsoft.Extensions.Identity.Stores": "9.0.15"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Identity.UI.dll": {
             "assemblyVersion": "9.0.15.0",
             "fileVersion": "9.0.1526.17607"
           }
@@ -597,6 +610,28 @@
           }
         }
       },
+      "Microsoft.Extensions.FileProviders.Abstractions/9.0.15": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.15"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1526.17522"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/9.0.15": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "9.0.15"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.FileProviders.Embedded.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1526.17607"
+          }
+        }
+      },
       "Microsoft.Extensions.Identity.Core/9.0.15": {
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "9.0.15",
@@ -1071,6 +1106,7 @@
       "ERP.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.15",
+          "Microsoft.AspNetCore.Identity.UI": "9.0.15",
           "Microsoft.EntityFrameworkCore": "9.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.15"
         },
@@ -1130,6 +1166,13 @@
       "sha512": "sha512-c1jgmUhIObW8LRMeMuUkT692rqDcOh52HAuELuoSzW+Kt/yfLSAZsXF0dG2hDFmq0AipYW49lImQmGzPcwEx5Q==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/9.0.15",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.9.0.15.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.UI/9.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CyI3/mMuDbUR2o9SQS+uP87bscg1dI0w1YydWjdUO1RQxYzz7NNsBjzrAzwb+L4X2pxaBk72qiceD1fE6TfO/A==",
+      "path": "microsoft.aspnetcore.identity.ui/9.0.15",
+      "hashPath": "microsoft.aspnetcore.identity.ui.9.0.15.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
@@ -1305,6 +1348,20 @@
       "sha512": "sha512-zt6n0QA6ufiSYJFURYCnQcOP48fRvmlLtbKwgAoPoBjuBGZ+2g+yhu3MRxOjfiA3iHpjlMoDJcNMOhRMVG64oQ==",
       "path": "microsoft.extensions.dependencymodel/9.0.15",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/9.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yzWilnNU/MvHINapPhY6iFAeApZnhToXbEBplORucn01hFc1F6ZaKt0V9dHYpUMun8WR9cSnq1ky35FWREVZbA==",
+      "path": "microsoft.extensions.fileproviders.abstractions/9.0.15",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.9.0.15.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/9.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XFlI3ZISL344QdPLtaXG0yPyjkHQR82DYXrJa9aF00Qeu7dDnFxwFgP/ItkkyiLjAe/NSj6vksxOdnelXGT1vQ==",
+      "path": "microsoft.extensions.fileproviders.embedded/9.0.15",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.9.0.15.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/9.0.15": {
       "type": "package",

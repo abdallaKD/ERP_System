@@ -374,6 +374,26 @@ namespace ERP.Repositories.Migrations
                         new
                         {
                             Id = 3,
+                            CreatedAt = new DateTime(2025, 1, 15, 0, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedByUserId = "USER-WARE-0001",
+                            ProductId = 3,
+                            PurchaseId = 3,
+                            Quantity = 30,
+                            Type = "In"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTime(2025, 1, 18, 0, 0, 0, 0, DateTimeKind.Utc),
+                            CreatedByUserId = "USER-WARE-0001",
+                            ProductId = 4,
+                            PurchaseId = 4,
+                            Quantity = 60,
+                            Type = "In"
+                        },
+                        new
+                        {
+                            Id = 5,
                             CreatedAt = new DateTime(2025, 2, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             CreatedByUserId = "USER-SALES-0001",
                             OrderId = 1,
@@ -383,7 +403,7 @@ namespace ERP.Repositories.Migrations
                         },
                         new
                         {
-                            Id = 4,
+                            Id = 6,
                             CreatedAt = new DateTime(2025, 2, 5, 0, 0, 0, 0, DateTimeKind.Utc),
                             CreatedByUserId = "USER-SALES-0001",
                             OrderId = 2,
@@ -393,7 +413,7 @@ namespace ERP.Repositories.Migrations
                         },
                         new
                         {
-                            Id = 5,
+                            Id = 7,
                             CreatedAt = new DateTime(2025, 2, 20, 0, 0, 0, 0, DateTimeKind.Utc),
                             CreatedByUserId = "USER-WARE-0001",
                             ProductId = 3,
@@ -474,9 +494,9 @@ namespace ERP.Repositories.Migrations
                             CustomerId = 2,
                             IsDeleted = false,
                             OrderDate = new DateTime(2025, 2, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaidAmount = 300.00m,
+                            PaidAmount = 450.00m,
                             PaymentStatus = "Partial",
-                            Status = "Pending",
+                            Status = "Completed",
                             TotalAmount = 599.98m,
                             UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -663,15 +683,6 @@ namespace ERP.Repositories.Migrations
                             OrderId = 4,
                             PaymentDate = new DateTime(2025, 2, 14, 0, 0, 0, 0, DateTimeKind.Utc),
                             PaymentMethod = "Card"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Amount = 100.00m,
-                            CustomerId = 3,
-                            OrderId = 3,
-                            PaymentDate = new DateTime(2025, 2, 11, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaymentMethod = "Cash"
                         });
                 });
 
@@ -728,7 +739,7 @@ namespace ERP.Repositories.Migrations
                             Name = "Dell Laptop 15\"",
                             SKU = "ELEC-001",
                             SellingPrice = 1099.99m,
-                            StockQuantity = 50
+                            StockQuantity = 49
                         },
                         new
                         {
@@ -740,7 +751,7 @@ namespace ERP.Repositories.Migrations
                             Name = "HP Monitor 24\"",
                             SKU = "ELEC-002",
                             SellingPrice = 299.99m,
-                            StockQuantity = 80
+                            StockQuantity = 48
                         },
                         new
                         {
@@ -752,7 +763,7 @@ namespace ERP.Repositories.Migrations
                             Name = "Ergonomic Office Chair",
                             SKU = "FURN-001",
                             SellingPrice = 399.99m,
-                            StockQuantity = 30
+                            StockQuantity = 27
                         },
                         new
                         {
@@ -776,7 +787,7 @@ namespace ERP.Repositories.Migrations
                             Name = "Microsoft Office 2024 Key",
                             SKU = "SOFT-001",
                             SellingPrice = 179.99m,
-                            StockQuantity = 100
+                            StockQuantity = 0
                         });
                 });
 

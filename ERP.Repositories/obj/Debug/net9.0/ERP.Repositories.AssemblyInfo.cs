@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94dc2eb98adcb038b2c5821584768377cf3116d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d44098a2ccacb9ed80ba16e068b151a4d1bd1772")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
