@@ -13,6 +13,14 @@ namespace ERP.Repositories.Repository
         IGenericRepository<Category> Categories { get; }
         IGenericRepository<Order> Orders { get; }
         IGenericRepository<InventoryLog> InventoryLogs { get; }
+        IGenericRepository<Customer> Customers { get; }
+        IGenericRepository<OrderItem> OrderItems { get; }
+        IGenericRepository<Purchase> Purchases { get; }
+        IGenericRepository<PurchaseItem> PurchaseItems { get; }
+        IGenericRepository<Supplier> Suppliers { get; }
+        IGenericRepository<Payment> Payments { get; }
+        IGenericRepository<ApplicationUser> ApplicationUsers { get; }
+
         Task<int> CompleteAsync();
     }
 }

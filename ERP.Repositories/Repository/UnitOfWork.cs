@@ -15,13 +15,28 @@ namespace ERP.Repositories.Repository
         public IGenericRepository<Category> Categories { get; private set; }
         public IGenericRepository<Order> Orders { get; private set; }
         public IGenericRepository<InventoryLog> InventoryLogs { get; private set; }
-        public UnitOfWork(ERPDBContext context)
+        public IGenericRepository<Customer> Customers { get; private set; }
+        public IGenericRepository<OrderItem> OrderItems { get; private set; }
+        public IGenericRepository<Purchase> Purchases { get; private set; }
+        public IGenericRepository<PurchaseItem> PurchaseItems { get; private set; }
+        public IGenericRepository<Supplier> Suppliers { get; private set; }
+        public IGenericRepository<Payment> Payments { get; private set; }
+        public IGenericRepository<ApplicationUser> ApplicationUsers { get; private set; }
+
+        public UnitOfWork(ERPDBContext context, IGenericRepository<Product> products, IGenericRepository<Category> categories, IGenericRepository<Order> orders, IGenericRepository<InventoryLog> inventoryLogs, IGenericRepository<Customer> customers, IGenericRepository<OrderItem> orderItems, IGenericRepository<Purchase> purchases, IGenericRepository<PurchaseItem> purchaseItems, IGenericRepository<Supplier> suppliers, IGenericRepository<Payment> payments, IGenericRepository<ApplicationUser> applicationUsers)
         {
             _context = context;
-            Products = new GenericRepository<Product>(_context);
-            Categories = new GenericRepository<Category>(_context);
-            Orders = new GenericRepository<Order>(_context);
-            InventoryLogs = new GenericRepository<InventoryLog>(_context);
+            Products = products;
+            Categories = categories;
+            Orders = orders;
+            InventoryLogs = inventoryLogs;
+            Customers = customers;
+            OrderItems = orderItems;
+            Purchases = purchases;
+            PurchaseItems = purchaseItems;
+            Suppliers = suppliers;
+            Payments = payments;
+            ApplicationUsers = applicationUsers;
         }
         public async Task<int> CompleteAsync() => await _context.SaveChangesAsync();
 
