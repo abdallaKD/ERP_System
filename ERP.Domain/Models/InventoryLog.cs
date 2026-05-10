@@ -42,7 +42,7 @@ namespace ERP.Domain.Models
         public int? PurchaseId { get; set; }
         public virtual Purchase? Purchase { get; set; }
 
-        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         // ── Navigation Properties
 

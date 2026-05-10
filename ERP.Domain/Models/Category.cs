@@ -19,7 +19,7 @@ namespace ERP.Domain.Models
 
         [MaxLength(500)]
         public string? Description { get; set; }
-        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation Property
         public virtual ICollection<Product> Products { get; set; } = new List<Product>();

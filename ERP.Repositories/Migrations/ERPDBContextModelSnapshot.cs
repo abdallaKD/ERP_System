@@ -187,43 +187,6 @@ namespace ERP.Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Description = "Electronic devices and accessories",
-                            Name = "Electronics"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Description = "Stationery, paper, and office essentials",
-                            Name = "Office Supplies"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Description = "Office and home furniture",
-                            Name = "Furniture"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Description = "Networking hardware and cables",
-                            Name = "Networking"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Description = "Software products and license keys",
-                            Name = "Software & Licenses"
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.Customer", b =>
@@ -258,53 +221,6 @@ namespace ERP.Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Customers");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Address = "12 Nile St, Cairo",
-                            CreatedAt = new DateTime(2025, 1, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "alice@example.com",
-                            Name = "Alice Morgan",
-                            Phone = "01001234567"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Address = "45 Pyramids Ave, Giza",
-                            CreatedAt = new DateTime(2025, 1, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "bob@example.com",
-                            Name = "Bob Carter",
-                            Phone = "01011234567"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Address = "7 Tahrir Sq, Cairo",
-                            CreatedAt = new DateTime(2025, 1, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "clara@example.com",
-                            Name = "Clara Stone",
-                            Phone = "01021234567"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Address = "33 Corniche Rd, Alexandria",
-                            CreatedAt = new DateTime(2025, 1, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "david@example.com",
-                            Name = "David Hale",
-                            Phone = "01031234567"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Address = "88 October City, Giza",
-                            CreatedAt = new DateTime(2025, 1, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "eva@example.com",
-                            Name = "Eva Nguyen",
-                            Phone = "01041234567"
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.InventoryLog", b =>
@@ -349,77 +265,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("PurchaseId");
 
                     b.ToTable("InventoryLogs");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2025, 1, 10, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            ProductId = 1,
-                            PurchaseId = 1,
-                            Quantity = 50,
-                            Type = "In"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2025, 1, 12, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            ProductId = 2,
-                            PurchaseId = 2,
-                            Quantity = 50,
-                            Type = "In"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2025, 1, 15, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            ProductId = 3,
-                            PurchaseId = 3,
-                            Quantity = 30,
-                            Type = "In"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2025, 1, 18, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            ProductId = 4,
-                            PurchaseId = 4,
-                            Quantity = 60,
-                            Type = "In"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CreatedAt = new DateTime(2025, 2, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            OrderId = 1,
-                            ProductId = 1,
-                            Quantity = -1,
-                            Type = "Out"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CreatedAt = new DateTime(2025, 2, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            OrderId = 2,
-                            ProductId = 2,
-                            Quantity = -2,
-                            Type = "Out"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CreatedAt = new DateTime(2025, 2, 20, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            ProductId = 3,
-                            Quantity = -3,
-                            Type = "Adjustment"
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.Order", b =>
@@ -470,78 +315,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("Orders");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2025, 2, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            CustomerId = 1,
-                            IsDeleted = false,
-                            OrderDate = new DateTime(2025, 2, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaidAmount = 1099.99m,
-                            PaymentStatus = "Paid",
-                            Status = "Completed",
-                            TotalAmount = 1099.99m,
-                            UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2025, 2, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            CustomerId = 2,
-                            IsDeleted = false,
-                            OrderDate = new DateTime(2025, 2, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaidAmount = 450.00m,
-                            PaymentStatus = "Partial",
-                            Status = "Completed",
-                            TotalAmount = 599.98m,
-                            UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2025, 2, 10, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            CustomerId = 3,
-                            IsDeleted = false,
-                            OrderDate = new DateTime(2025, 2, 10, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaidAmount = 0m,
-                            PaymentStatus = "Pending",
-                            Status = "Pending",
-                            TotalAmount = 399.99m,
-                            UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2025, 2, 14, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            CustomerId = 4,
-                            IsDeleted = false,
-                            OrderDate = new DateTime(2025, 2, 14, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaidAmount = 179.99m,
-                            PaymentStatus = "Paid",
-                            Status = "Completed",
-                            TotalAmount = 179.99m,
-                            UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CreatedAt = new DateTime(2025, 2, 18, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-SALES-0001",
-                            CustomerId = 5,
-                            IsDeleted = false,
-                            OrderDate = new DateTime(2025, 2, 18, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaidAmount = 0m,
-                            PaymentStatus = "Pending",
-                            Status = "Cancelled",
-                            TotalAmount = 59.99m,
-                            UpdatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.OrderItem", b =>
@@ -571,48 +344,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderItem");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            OrderId = 1,
-                            ProductId = 1,
-                            Quantity = 1,
-                            UnitPrice = 1099.99m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            OrderId = 2,
-                            ProductId = 2,
-                            Quantity = 2,
-                            UnitPrice = 299.99m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            OrderId = 3,
-                            ProductId = 3,
-                            Quantity = 1,
-                            UnitPrice = 399.99m
-                        },
-                        new
-                        {
-                            Id = 4,
-                            OrderId = 4,
-                            ProductId = 5,
-                            Quantity = 1,
-                            UnitPrice = 179.99m
-                        },
-                        new
-                        {
-                            Id = 5,
-                            OrderId = 5,
-                            ProductId = 4,
-                            Quantity = 1,
-                            UnitPrice = 59.99m
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.Payment", b =>
@@ -646,44 +377,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("OrderId");
 
                     b.ToTable("Payments");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Amount = 1099.99m,
-                            CustomerId = 1,
-                            OrderId = 1,
-                            PaymentDate = new DateTime(2025, 2, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaymentMethod = "Card"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Amount = 300.00m,
-                            CustomerId = 2,
-                            OrderId = 2,
-                            PaymentDate = new DateTime(2025, 2, 5, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaymentMethod = "Cash"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Amount = 150.00m,
-                            CustomerId = 2,
-                            OrderId = 2,
-                            PaymentDate = new DateTime(2025, 2, 7, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaymentMethod = "Transfer"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Amount = 179.99m,
-                            CustomerId = 4,
-                            OrderId = 4,
-                            PaymentDate = new DateTime(2025, 2, 14, 0, 0, 0, 0, DateTimeKind.Utc),
-                            PaymentMethod = "Card"
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.Product", b =>
@@ -727,68 +420,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoryId = 1,
-                            CostPrice = 750.00m,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Image = "dell-laptop.jpg",
-                            Name = "Dell Laptop 15\"",
-                            SKU = "ELEC-001",
-                            SellingPrice = 1099.99m,
-                            StockQuantity = 49
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CategoryId = 1,
-                            CostPrice = 180.00m,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Image = "hp-monitor.jpg",
-                            Name = "HP Monitor 24\"",
-                            SKU = "ELEC-002",
-                            SellingPrice = 299.99m,
-                            StockQuantity = 48
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CategoryId = 3,
-                            CostPrice = 220.00m,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Image = "office-chair.jpg",
-                            Name = "Ergonomic Office Chair",
-                            SKU = "FURN-001",
-                            SellingPrice = 399.99m,
-                            StockQuantity = 27
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CategoryId = 4,
-                            CostPrice = 35.00m,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Image = "tp-switch.jpg",
-                            Name = "TP-Link 8-Port Switch",
-                            SKU = "NET-001",
-                            SellingPrice = 59.99m,
-                            StockQuantity = 60
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CategoryId = 5,
-                            CostPrice = 100.00m,
-                            CreatedAt = new DateTime(2025, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Image = "ms-office.jpg",
-                            Name = "Microsoft Office 2024 Key",
-                            SKU = "SOFT-001",
-                            SellingPrice = 179.99m,
-                            StockQuantity = 0
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.Purchase", b =>
@@ -826,58 +457,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("SupplierId");
 
                     b.ToTable("Purchases");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2025, 1, 10, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            PurchaseDate = new DateTime(2025, 1, 10, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Status = "Received",
-                            SupplierId = 1,
-                            TotalAmount = 37500.00m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2025, 1, 12, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            PurchaseDate = new DateTime(2025, 1, 12, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Status = "Received",
-                            SupplierId = 2,
-                            TotalAmount = 9000.00m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2025, 1, 15, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            PurchaseDate = new DateTime(2025, 1, 15, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Status = "Received",
-                            SupplierId = 3,
-                            TotalAmount = 6600.00m
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2025, 1, 18, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            PurchaseDate = new DateTime(2025, 1, 18, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Status = "Received",
-                            SupplierId = 4,
-                            TotalAmount = 2100.00m
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CreatedAt = new DateTime(2025, 1, 20, 0, 0, 0, 0, DateTimeKind.Utc),
-                            CreatedByUserId = "USER-WARE-0001",
-                            PurchaseDate = new DateTime(2025, 1, 20, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Status = "Pending",
-                            SupplierId = 5,
-                            TotalAmount = 10000.00m
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.PurchaseItem", b =>
@@ -907,48 +486,6 @@ namespace ERP.Repositories.Migrations
                     b.HasIndex("PurchaseId");
 
                     b.ToTable("PurchaseItem");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            ProductId = 1,
-                            PurchaseId = 1,
-                            Quantity = 50,
-                            UnitCost = 750.00m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            ProductId = 2,
-                            PurchaseId = 2,
-                            Quantity = 50,
-                            UnitCost = 180.00m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            ProductId = 3,
-                            PurchaseId = 3,
-                            Quantity = 30,
-                            UnitCost = 220.00m
-                        },
-                        new
-                        {
-                            Id = 4,
-                            ProductId = 4,
-                            PurchaseId = 4,
-                            Quantity = 60,
-                            UnitCost = 35.00m
-                        },
-                        new
-                        {
-                            Id = 5,
-                            ProductId = 5,
-                            PurchaseId = 5,
-                            Quantity = 100,
-                            UnitCost = 100.00m
-                        });
                 });
 
             modelBuilder.Entity("ERP.Domain.Models.Supplier", b =>
@@ -983,53 +520,6 @@ namespace ERP.Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Suppliers");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Address = "Industrial Zone A, Cairo",
-                            CreatedAt = new DateTime(2025, 1, 3, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "sales@techsource.com",
-                            Name = "TechSource LLC",
-                            Phone = "01101234567"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Address = "Free Zone, Alexandria",
-                            CreatedAt = new DateTime(2025, 1, 3, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "orders@globaldepot.com",
-                            Name = "Global Office Depot",
-                            Phone = "01111234567"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Address = "New Cairo, Cairo",
-                            CreatedAt = new DateTime(2025, 1, 3, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "info@furnipro.eg",
-                            Name = "FurniPro Egypt",
-                            Phone = "01121234567"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Address = "Smart Village, Giza",
-                            CreatedAt = new DateTime(2025, 1, 3, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "support@netgearab.com",
-                            Name = "NetGear Arabia",
-                            Phone = "01131234567"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Address = "Downtown, Cairo",
-                            CreatedAt = new DateTime(2025, 1, 3, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "licenses@softdist.com",
-                            Name = "SoftDist International",
-                            Phone = "01141234567"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

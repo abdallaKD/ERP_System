@@ -41,7 +41,7 @@ namespace ERP.Domain.Models
         [Display(Name = "Selling Price")]
         public decimal SellingPrice { get; set; }
 
-        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         // Navigation Properties
 

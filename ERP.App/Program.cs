@@ -1,7 +1,9 @@
 using ERP.Domain.Models;
 using ERP.Repositories;
 using ERP.Repositories.Repository;
+using ERP.Services.CategoryService;
 using ERP.Services.LoginService;
+using ERP.Services.SupplierService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Principal;
@@ -38,6 +40,9 @@ namespace ERP.App
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ISupplierService, SupplierService>();
+            
 
 
 

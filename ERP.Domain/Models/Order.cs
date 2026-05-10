@@ -47,9 +47,9 @@ namespace ERP.Domain.Models
         [Display(Name = "Payment Status")]
         public PaymentStatus PaymentStatus { get; set; } = PaymentStatus.Pending;
 
-        public DateTime CreatedAt { get; set; } = new DateTime(2024, 1, 1);
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        public DateTime? UpdatedAt { get; set; } = new DateTime(2024, 1, 1);
+        public DateTime? UpdatedAt { get; set; } = DateTime.Now;
 
         public bool? IsDeleted { get; set; } = false;
 
