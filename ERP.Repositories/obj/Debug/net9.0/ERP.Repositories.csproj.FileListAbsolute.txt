@@ -34,3 +34,21 @@ D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\refint\ERP
 D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.pdb
 D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.genruntimeconfig.cache
 D:\ITI Material\MVC Project\ERP.App\ERP.Repositories\obj\Debug\net9.0\ref\ERP.Repositories.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.deps.json
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.runtimeconfig.json
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\bin\Debug\net9.0\ERP.Repositories.pdb
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\bin\Debug\net9.0\ERP.Domain.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\bin\Debug\net9.0\ERP.Domain.pdb
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.AssemblyInfo.cs
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.sourcelink.json
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repo.AF70A2D7.Up2Date
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\refint\ERP.Repositories.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.pdb
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ERP.Repositories.genruntimeconfig.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Repositories\obj\Debug\net9.0\ref\ERP.Repositories.dll

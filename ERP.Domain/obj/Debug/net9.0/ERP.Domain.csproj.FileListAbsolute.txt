@@ -28,3 +28,18 @@ D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\refint\ERP.Domai
 D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.pdb
 D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ERP.Domain.genruntimeconfig.cache
 D:\ITI Material\MVC Project\ERP.App\ERP.Domain\obj\Debug\net9.0\ref\ERP.Domain.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\bin\Debug\net9.0\ERP.Domain.deps.json
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\bin\Debug\net9.0\ERP.Domain.runtimeconfig.json
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\bin\Debug\net9.0\ERP.Domain.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\bin\Debug\net9.0\ERP.Domain.pdb
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.AssemblyInfo.cs
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.sourcelink.json
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\refint\ERP.Domain.dll
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.pdb
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ERP.Domain.genruntimeconfig.cache
+C:\Users\ACER\Desktop\Final ERP\ERP.Domain\obj\Debug\net9.0\ref\ERP.Domain.dll
