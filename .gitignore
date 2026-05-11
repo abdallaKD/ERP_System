@@ -55,4 +55,6 @@ ehthumbs.db
 # IDEs (optional)
 ############################
 .vscode/
-.idea/
+.idea/.vs/
+**/bin/
+**/obj/
