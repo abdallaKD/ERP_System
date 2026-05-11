@@ -42,7 +42,6 @@ namespace ERP.App
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ISupplierService, SupplierService>();
-            
 
 
 

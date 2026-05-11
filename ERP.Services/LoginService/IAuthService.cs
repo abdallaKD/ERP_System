@@ -13,5 +13,14 @@ namespace ERP.Services.LoginService
         Task<SignInResult> LoginAsync(LoginViewModel model);
         Task LogoutAsync();
         Task<bool> IsUserActiveAsync(string email);
+
+        Task<(IdentityResult Result, string? UserId)> CreateUserAsync(RegisterViewModel model);
+        Task<List<string>> GetAllRolesAsync();
+        Task<List<UserViewModel>> GetAllUsersAsync();
+        Task<IdentityResult> EditUserAsync(EditUserViewModel model);
+        Task<EditUserViewModel>? GetByIdAsync(string userId);
+        Task<IdentityResult> ChangePasswordAsync(ChangePasswordViewModel model);
+        Task<IdentityResult> DeleteUserAsync(string userId);
+        Task<IdentityResult> ToggleUserActiveAsync(string userId);
     }
 }
