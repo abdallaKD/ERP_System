@@ -4,7 +4,6 @@ using ERP.Repositories.Repository;
 using ERP.Services.CategoryService;
 using ERP.Services.LoginService;
 using ERP.Services.SupplierService;
-using ERP.Services.ProductsService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Principal;
@@ -20,14 +19,12 @@ namespace ERP.App
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddDbContext<ERPDBContext>(optionsBuilder =>
-            {
+            builder.Services.AddDbContext<ERPDBContext>(optionsBuilder => {
                 optionsBuilder.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             });
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
-                options =>
-                {
+                options =>{
                     options.Password.RequireDigit = true;
                     options.Password.RequireLowercase = true;
                     options.Password.RequireUppercase = true;
@@ -36,7 +33,7 @@ namespace ERP.App
                 }
             ).
             AddEntityFrameworkStores<ERPDBContext>()
-            .AddDefaultTokenProviders();
+            .AddDefaultTokenProviders();    
 
 
             ////// DI for Repositories and Services
@@ -45,14 +42,12 @@ namespace ERP.App
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ISupplierService, SupplierService>();
-            builder.Services.AddScoped<IProductService, ProductService>();
-
 
 
 
             var app = builder.Build();
             app.UseStaticFiles();
-
+   
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
