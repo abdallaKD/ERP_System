@@ -1,8 +1,8 @@
 ############################
 # Build output (IMPORTANT)
 ############################
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
 
 ############################
 # Visual Studio
@@ -12,6 +12,7 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
+*.rsuser
 
 ############################
 # Logs
@@ -24,13 +25,21 @@ logs/
 ############################
 **/project.assets.json
 **/project.nuget.cache
+**/project.nuget.dgspec.json
+**/project.nuget.g.props
+**/project.nuget.g.targets
 *.nupkg
+*.snupkg
+packages/
 
 ############################
 # Test results
 ############################
 TestResults/
 *.trx
+coverage/
+*.coverage
+*.coveragexml
 
 ############################
 # Publish output
@@ -39,7 +48,7 @@ publish/
 wwwroot/dist/
 
 ############################
-# Local config (optional)
+# Local config
 ############################
 appsettings.Development.json
 appsettings.Local.json
@@ -50,11 +59,11 @@ appsettings.Local.json
 .DS_Store
 Thumbs.db
 ehthumbs.db
+desktop.ini
 
 ############################
-# IDEs (optional)
+# IDEs
 ############################
 .vscode/
-.idea/.vs/
-**/bin/
-**/obj/
+.idea/
+*.DotSettings.user
